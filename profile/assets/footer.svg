@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-label="Streamline Agency">
+  <style>
+  text { font-family: 'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+    .wave { animation: wave 6s ease-in-out infinite alternate; }
+    @keyframes wave { from { transform: translateX(-60px) } to { transform: translateX(60px) } }
+  </style>
+  <defs>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#F7C948" stop-opacity="0"/><stop offset=".5" stop-color="#F7C948"/><stop offset="1" stop-color="#F7C948" stop-opacity="0"/></linearGradient>
+  </defs>
+  <path class="wave" d="M-80 40 C 200 10, 420 70, 640 40 S 1080 10, 1360 40" fill="none" stroke="url(#l)" stroke-width="2"/>
+  <text x="640" y="96" text-anchor="middle" font-size="22" font-weight="800" fill="#FAFAFA" letter-spacing="1">Streamline <tspan fill="#F7C948">Agency</tspan></text>
+  <text x="640" y="126" text-anchor="middle" font-size="14" fill="#A1A1AA" letter-spacing="2">FRANCE · STREAMLINEAGENCY.EU</text>
+</svg>
