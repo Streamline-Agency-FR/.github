@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="110" viewBox="0 0 1280 110" role="img" aria-label="L'équipe dev">
+  <style>
+  text { font-family: 'Inter','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+
+    .bar { animation: grow 2.4s cubic-bezier(.2,.8,.2,1) infinite alternate; transform-box: fill-box; transform-origin: left; }
+    @keyframes grow { from { transform: scaleX(.35) } to { transform: scaleX(1) } }
+  </style>
+  <defs>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#F7C948"/><stop offset="1" stop-color="#F7C948" stop-opacity="0"/></linearGradient>
+  </defs>
+  <g transform="translate(8 22)">
+    <rect width="64" height="64" rx="16" fill="#18181B" stroke="#27272A"/>
+    <text x="32" y="42" text-anchor="middle" font-size="22" font-weight="800" fill="#F7C948">04</text>
+    <text x="88" y="34" font-size="30" font-weight="800" fill="#F7C948" letter-spacing=".3">L'équipe dev</text>
+    <text x="88" y="60" font-size="15" fill="#A1A1AA">Les devs derrière nos outils</text>
+    <rect class="bar" x="88" y="74" width="360" height="3" rx="1.5" fill="url(#l)"/>
+  </g>
+</svg>
